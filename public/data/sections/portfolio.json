@@ -1,0 +1,216 @@
+{
+    "title": {
+        "locales": {
+            "en": {
+                "title_short": "Portfolio",
+                "title_short_nav": "Portfolio",
+                "title_long_prefix": "Take a look at",
+                "title_long": "My {{Portfolio}}"
+            },
+            "es": {
+                "title_short": "Portafolio",
+                "title_short_nav": "Portafolio",
+                "title_long_prefix": "Explora",
+                "title_long": "Mi {{Portafolio}}"
+            },
+            "fr": {
+                "title_short": "Portfolio",
+                "title_short_nav": "Portfolio",
+                "title_long_prefix": "Découvrez",
+                "title_long": "Mon {{Portfolio}}"
+            },
+            "ko": {
+                "title_short": "포트폴리오",
+                "title_short_nav": "포트폴리오",
+                "title_long_prefix": "이것은 내",
+                "title_long": "{{포트폴리오}}입니다"
+            }
+        }
+    },
+
+    "articles": [
+        {
+            "id": 1,
+            "component": "ArticlePortfolio",
+            "locales": {
+                "en": {
+                    "category_all": "All",
+                    "category_apps": "Apps",
+                    "category_web": "Web",
+                    "category_utilities": "Utilities"
+                }
+            },
+            "settings": {
+                "categorize_by": ["category_apps", "category_web", "category_utilities"],
+                "order_items_by": "id",
+                "order_items_sort": "asc"
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "categoryId": "category_web",
+                    "img": "images/pictures/sx.jpg",
+                    "faIcon": "",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "preview": {
+                        "links": [
+                            {"href": "https://github.com/faizerumar/Smart-Inventory-System-AI-Powered", "tooltipString": "see_on_github", "faIcon": "fa-brands fa-github"}
+                            
+                        ],
+                        "screenshots": [
+                            "images/pictures/dashboard1.jpg",
+                            "images/pictures/page2.jpg",
+                            "images/pictures/page3.jpg",
+                            "images/pictures/page4.jpg",
+                            "images/pictures/page5.jpg"
+                        ],
+                        "screenshotsAspectRatio": "auto"
+                        
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Smart Inventory management system",
+                            "text": "<b>An AI-powered</b>, enterprise-grade Java web application designed to automate stock management, streamline supply chains, and optimize warehouse operations. Built natively using <b>Apache NetBeans</b>, this system provides real-time tracking, automated reorder triggers, and smart insights to eliminate stockouts and overstocking.",
+                            "tags": ["Java (Servlets, JSP)", "HTML5, CSS3, JavaScript", "MySQL"]
+                        }
+                    }
+                },
+                {
+                    "id": 2,
+                    "categoryId": "category_apps",
+                    "img": "images/pictures/6.jpg",
+                    "faIcon": "",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "preview": {
+                        "links": [
+                            {"href": "https://github.com/faizerumar/cookbook", "tooltipString": "see_on_github", "faIcon": "fa-brands fa-github"}
+                           
+                        ],
+                        "screenshots": [
+                            "images/pictures/c1.png",
+                            "images/pictures/c2.png",
+                            "images/pictures/c3.png",
+                            "images/pictures/c4.png",
+                            "images/pictures/c5.png",
+                            "images/pictures/c6.png"
+                        ],
+                        "screenshotsAspectRatio": "auto"
+                        
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "CookBook",
+                            "text": "A cross-platform beautiful, <b>interactive Flutter</b> recipe application that allows you to discover, create, and save delicious recipes! With a user-friendly interface and seamless navigation, <b>CookBook</b> makes it easy to explore a wide variety of dishes, from appetizers to desserts. Whether you're a seasoned chef or a cooking enthusiast, this app provides step-by-step instructions, ingredient lists, and helpful tips to enhance your culinary experience.",
+                            "tags": ["Flutter", "Dart", "TheMealDB", "Android Studio"]
+                        }
+                    }
+                },
+                {
+                    "id": 3,
+                    "categoryId": "category_apps",
+                    "img": "images/pictures/ex.jpg",
+                    "faIcon": "",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "preview": {
+                        "links": [
+                            {"href": "https://github.com/faizerumar/Expense-Income-Tracker", "tooltipString": "see_on_github", "faIcon": "fa-brands fa-github"}
+                        ],
+                        "screenshots": [
+                            "images/pictures/e1.jpg",
+                            "images/pictures/e2.jpg",
+                            "images/pictures/e3.jpg",
+                            "images/pictures/e4.jpg",
+                            "images/pictures/e5.jpg",
+                            "images/pictures/e6.jpg",
+                            "images/pictures/e7.jpg"
+                        ],
+                        "screenshotsAspectRatio": "16:9"
+                        
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Expense & Income Tracker webapp",
+                            "text": "<b>ExpenseFlow</b> is a clean, simple, and premium personal finance dashboard built using Python (Flask) on the backend and HTML, CSS, and Vanilla JavaScript on the frontend. It uses a MySQL database to securely store users, incomes, and expenses.",
+                            "tags": ["Python", "flask", "HTML5, CSS3,Vanilla JavaScript"]
+                        }
+                    }
+                },
+                {
+                    "id": 4,
+                    "categoryId": "category_web",
+                    "img": "images/pictures/cd.jpg",
+                    "faIcon": "",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "preview": {
+                        "links": [
+                            
+                        ],
+                        "screenshots": [
+                            "images/pictures/cse.jpg"
+
+                        ],
+                        "screenshotsAspectRatio": "9:16"
+                        
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "CPU scheduling simulator",
+                            "text": "An interactive web application built with <b>TypeScript, React, and Tailwind CSS</b> that simulates and visualizes CPU scheduling algorithms. Users can enter process data and compare ( FCFS, SJF ) through animated <b>Gantt charts</b> and performance metrics like Waiting Time and Turnaround Time. ",
+                            "tags": ["TypeScript", "React", "Tailwind CSS"]
+                        }
+                    }
+                },
+                {
+                    "id": 5,
+                    "categoryId": "category_utilities",
+                    "img": "images/pictures/pa.jpg",
+                    "faIcon": "",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "preview": {
+                        "links": [
+                             {"href": "https://github.com/faizerumar/python-ai-chatbot", "tooltipString": "see_on_github", "faIcon": "fa-brands fa-github"}
+                        ],
+                        "screenshots": [
+                            "images/pictures/pa1.jpg"
+                        ],
+                        "screenshotsAspectRatio": "",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Spectsman AI ChatBot",
+                            "text": "A lightweight, cloud-powered AI chatbot built with <b>Python, Streamlit, and the Google GenAI SDK (google-genai)</b>. This application connects directly to Google's Gemini cloud infrastructure, resulting in 0 bytes of local model storage while providing a rich, interactive web UI.",
+                            "tags": ["Python", "AI", "Chatbot", "Streamlit", "Google GenAI SDK"]
+                        }
+                    }
+                },
+                {
+                    "id": 6,
+                    "categoryId": "category_utilities",
+                    "img": "images/pictures/t.jpg",
+                    "faIcon": "",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "preview": {
+                        "links": [
+                            {"href": "https://t.me/SPECTSMAN_bot", "tooltipString": "Open Telegram Bot", "faIcon": "fa-solid fa-link"}
+                        ],
+                        "screenshots": [
+"images/pictures/t1.jpg"
+                        ],
+                        "screenshotsAspectRatio": "16:9"
+                        
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "SPECTSMAN Telegram Bot",
+                            "text": "A Telegram chatbot powered by the Groq API and the openai/gpt-oss-120b model.",
+                            "tags": ["Telegram", "AI", "Chatbot", "Groq API", "OpenAI"]
+                        }
+                    }
+                }
+                
+                
+            ]
+        }
+    ]
+}

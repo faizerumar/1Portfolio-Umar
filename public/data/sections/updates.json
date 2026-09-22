@@ -1,0 +1,213 @@
+{
+    "title": {
+        "locales": {
+            "en": {
+                "title_short": "Life recently",
+                "title_short_nav": "Updates",
+                "title_long_prefix": "Take a look at my",
+                "title_long": "Recent {{Updates}}"
+            },
+            "es": {
+                "title_short": "Vida Reciente",
+                "title_short_nav": "Actualizaciones",
+                "title_long_prefix": "Consulta mis",
+                "title_long": "Actualizaciones {{Recientes}}"
+            },
+            "fr": {
+                "title_short": "Vie Récente",
+                "title_short_nav": "Mises à Jour",
+                "title_long_prefix": "Découvrez mes",
+                "title_long": "Dernières {{Mises à Jour}}"
+            },
+            "ko": {
+                "title_short": "최근의 삶",
+                "title_short_nav": "업데이트",
+                "title_long_prefix": "내 최근",
+                "title_long": "{{업데이트}}를 확인해 보세요"
+            }
+        }
+    },
+
+    "articles": [
+        {
+            "id": 1,
+            "component": "ArticleFacts",
+            "locales": {},
+            "settings": {
+                "order_items_by": "id",
+                "order_items_sort": "asc"
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "img": null,
+                    "faIcon": "fa-solid fa-tablet-screen-button",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "locales": {
+                        "en": {
+                            "title": "03",
+                            "text": "Apps Published"
+                        },
+                        "es": {
+                            "text": "Aplicaciones Publicadas"
+                        },
+                        "fr": {
+                            "text": "Applications Publiées"
+                        },
+                        "ko": {
+                            "text": "출시된 앱"
+                        }
+                    }
+                },
+                {
+                    "id": 2,
+                    "img": null,
+                    "faIcon": "fa-solid fa-code",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "locales": {
+                        "en": {
+                            "title": "15+",
+                            "text": "Projects Completed"
+                        }
+                    }
+                },
+                {
+                    "id": 3,
+                    "img": null,
+                    "faIcon": "fa-solid fa-diagram-project",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "locales": {
+                        "en": {
+                            "title": "09",
+                            "text": "Open-source projects"
+                        }
+                    }
+                },
+                {
+                    "id": 4,
+                    "img": null,
+                    "faIcon": "fa-solid fa-coffee",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "locales": {
+                        "en": {
+                            "title": "20,000",
+                            "text": "Coffees consumed"
+                        }
+                    }
+                },
+                {
+                    "id": 5,
+                    "img": null,
+                    "faIcon": "fa-solid fa-laptop-code",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "locales": {
+                        "en": {
+                            "title": "100,000+",
+                            "text": "Lines of code"
+                        },
+                        "es": {
+                            "text": "Líneas de código"
+                        },
+                        "fr": {
+                            "text": "Lignes de code"
+                        },
+                        "ko": {
+                            "text": "코드 라인 수"
+                        }
+                    }
+                },
+                {
+                    "id": 6,
+                    "img": null,
+                    "faIcon": "fa-solid fa-heart",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "locales": {
+                        "en": {
+                            "title": "Infinite",
+                            "text": "Passion for learning"
+                        },
+                        "es": {
+                            "title": "Infinita",
+                            "text": "Pasión por Aprender"
+                        },
+                        "fr": {
+                            "title": "Infinie",
+                            "text": "Passion d'apprendre"
+                        },
+                        "ko": {
+                            "title": "무한대",
+                            "text": "배움에 대한 열정"
+                        }
+                    }
+                }
+            ]
+        },
+
+        {
+            "id": 2,
+            "component": "ArticleThread",
+            "locales": {
+                "en": { "title": "Quick {{Facts}}" },
+                "es": { "title": "Feed de {{Noticias}}" },
+                "fr": { "title": "Fil d'{{Actualités}}" },
+                "ko": { "title": "{{뉴스}} 피드" }
+            },
+            "settings": {
+                "max_rows_collapse_threshold": 3,
+                "order_items_by": "dateStart",
+                "order_items_sort": "desc"
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "date": {"year": 2028,"month": 1},
+                    "preview": {
+                        "links": [],
+                        "screenshots": [],
+                        "screenshotsAspectRatio": "",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Looking Forward for a {{Topup Degree }} BIT at University of Moratuwa ",
+                            "province": "Western Province",
+                            "country": "SriLanka",
+                            "institution": "",
+                            "text": " I am looking forward to pursuing a Topup Degree Program after completing my internship at HNDIT. This program will allow me to further enhance my skills and knowledge in the field of technology and prepare me for future career opportunities."
+                        }
+                    }
+                },
+                
+                {
+                    "id": 3,
+                    "date": {"year": 2026, "month": 9},
+                    "preview": {
+                        "links": [
+                            {"href": " https://github.com/faizerumar", "tooltipString": "open_website", "faIcon": "fa-brands fa-medium"}
+                        ],
+                        "screenshots": [],
+                        "screenshotsAspectRatio": "",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Working on new {{Software Engineering based Projects}}",
+                            "province": "Uva Province",
+                            "country": "SriLanka",
+                            "institution": "",
+                            "text": "I am currently working on several new software engineering projects that aim to provide innovative solutions to real-world problems. These projects are designed to leverage the latest technologies and best practices in software development.",
+                            "list": [
+                                "CI/CD pipelines for automating the deployment of applications to cloud platforms.",
+                                "RAG (Retrieval-Augmented Generation) based applications for enhancing information retrieval and knowledge management.",
+                                "Developing a new web application that utilizes AI to enhance user experience.",
+                                "Creating a mobile app that helps users track their daily habits and improve productivity.",
+                                "Building an open-source library that simplifies data visualization for developers."
+                                
+                            ]
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}

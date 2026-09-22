@@ -1,0 +1,13 @@
+/**
+ * @author Ryan Balieiro
+ * @description This file can be imported in component-specific SCSS files in order to extend the layout.
+ */
+
+@import './constants';
+@import 'bootstrap/scss/_functions.scss';
+@import 'bootstrap/scss/_variables.scss';
+@import 'bootstrap/scss/mixins/_breakpoints.scss';
+
+@import "customization/primitives-customization";
+@import "customization/bootstrap-customization";
+@import "customization/plugin-customization";

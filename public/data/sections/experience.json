@@ -1,0 +1,96 @@
+{
+    "title": {
+        "locales": {
+            "en": {
+                "title_short": "Experience",
+                "title_short_nav": "Experience",
+                "title_long_prefix": "Summary of my",
+                "title_long": "{{Work}} Experience"
+            }
+        }
+    },
+
+    "articles": [
+        {
+            "id": 1,
+            "component": "ArticleTimeline",
+            "locales": {},
+            "settings": {
+                "order_items_by": "id",
+                "order_items_sort": "dateStart"
+            },
+            "items": [
+                
+                {
+                    "id": 4,
+                    "img": "images/pictures/kfhi.jpg",
+                    "faIcon": "fa-solid fa-code",
+                    "faIconColors": {"bg": "#111", "fill": "#EEE"},
+                    "dateStart": {"year": 2022, "month": 12},
+                    "dateEnd": {"now": true},
+                    "locales": {
+                        "en": {
+                            "title": "{{Survey Enumerator}} ",
+                            "province": "Badulla",
+                            "country": "Sri Lanka",
+                            "institution": "KFHI Sri Lanka",
+                            "text": "Conducted surveys and collected data from various communities, ensuring accuracy and reliability of the information gathered.",
+                            "list": [
+                                "Data collection and analysis",
+                                "Community engagement and communication",
+                                "Report writing and presentation"
+                            ],
+                            "tags": ["Data Collection", "Surveying", "Community Engagement"]
+                        }
+                    }
+                },
+                
+               
+                {
+                    "id": 2,
+                    "img": "images/pictures/images3.jpg",
+                    "faIcon": "",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "dateStart": {"year": 2024, "month": 12},
+                    "dateEnd": {"now": true},
+                    "locales": {
+                        "en": {
+                            "title": "{{WordPress}} Developer",
+                            "province": "Badulla",
+                            "country": "Sri Lanka",
+                            "institution": "Self Employed",
+                            "text": "Developed and maintained [[WordPress websites]] for various clients, customizing themes and plugins to meet specific requirements, and ensuring optimal performance and security.",
+                            "list": [],
+                            "tags": ["WordPress", "PHP", "MySQL", "elementor", "WooCommerce"]
+                        }
+                    }
+                },
+                {
+                    "id": 3,
+                    "img": "",
+                    "faIcon": "fa-solid fa-code",
+                    "faIconColors": {"bg": "#111", "fill": "#EEE"},
+                    "dateStart": {"year": 2022, "month": 12},
+                    "dateEnd": {"now": true},
+                    "locales": {
+                        "en": {
+                            "title": "{{Full-Stack}} Developer",
+                            "province": "Badulla",
+                            "country": "Sri Lanka",
+                            "institution": "Self Employed",
+                            "text": "Developed and maintained [[scalable Frontend & backend systems]] for various clients, optimizing database performance and implementing RESTful APIs to improve application functionality.",
+                            "list": [
+                                "Security",
+                                "Scalability to handle millions of users globally",
+                                "Developing RESTful APIs",
+                                "Optimizing database performance with PostgreSQL",
+                                "Building services with Apache NetNeans, Visual Studio Code, and GitHub"
+                            ],
+                            "tags": ["JavaScript", "React", "NodeJS", "PHP", "REST APIs", "Docker"]
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}

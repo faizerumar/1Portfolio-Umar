@@ -1,0 +1,104 @@
+{
+    "developerSettings": {
+        "debugMode": false,
+        "fakeEmailRequests": false,
+        "stayOnThePreloaderScreen": false,
+        "version": "2.0.3"
+    },
+
+    "preloaderSettings": {
+        "enabled": true,
+        "title": "<strong>Portfolio</strong>",
+        "subtitle": "Umar Faizer",
+        "logoOffset": {
+            "right": 14,
+            "top": 2,
+            "bottom": 0
+        }
+    },
+
+    "templateSettings": {
+        "animatedCursorEnabled": true,
+        "backgroundStyle": "animated",
+        "defaultLanguageId": "en",
+        "defaultThemeId": "dark",
+        "fullscreenEnabled": true,
+        "showSpinnerOnThemeChange": true
+    },
+
+    "supportedLanguages": [
+        {
+            "name": "English",
+            "id": "en",
+            "flagUrl": "images/flags/en-us.png"
+        }
+    ],
+
+    "supportedThemes": [
+        {
+            "id": "dark",
+            "icon": "fa-solid fa-moon",
+            "dark": true,
+            "locales": {
+                "en": {"name": "Dark Mode"},
+                "es": {"name": "Modo Oscuro"},
+                "fr": {"name": "Mode Sombre"},
+                "ko": {"name": "다크 모드"}
+            }
+        },
+        {
+            "id": "light",
+            "icon": "fa-solid fa-sun",
+            "dark": false,
+            "locales": {
+                "en": {"name": "Light Mode"},
+                "es": {"name": "Modo Claro"},
+                "fr": {"name": "Mode Clair"},
+                "ko": {"name": "라이트 모드"}
+            }
+        }
+    ],
+
+    "consoleMessageForDevelopers": {
+        "title": "\uD83D\uDDA5️ Hey there, fellow developer!",
+        "items": [
+            {
+                "description": "This is an open-source template based on the React framework.",
+                "list": [],
+                "listStyle": "none"
+            },
+            {
+                "description": "Other frameworks and plugins used in the project include:",
+                "list": [
+                    "Bootstrap 5: https://getbootstrap.com/",
+                    "Smooth Scrollbar: https://tinyurl.com/4yhm4n4a",
+                    "Swiper: https://swiperjs.com/",
+                    "EmailJS: https://www.emailjs.com/",
+                    "Font Awesome: https://fontawesome.com/",
+                    "PrimeIcons: https://primefaces.org/"
+                ],
+                "listStyle": "bulleted"
+            },
+            {
+                "description": "Clone it and customize it for your own portfolio:",
+                "list": [
+                    "https://github.com/ryanbalieiro/react-portfolio-template"
+                ],
+                "listStyle": "none"
+            },
+            {
+                "description": "Developer Info:",
+                "list": [
+                    "GitHub: https://github.com/ryanbalieiro",
+                    "Website: https://ryanbalieiro.com"
+                ],
+                "listStyle": "bulleted"
+            }
+        ]
+    },
+
+    "imagesToCache": [
+        "images/pictures/profile-picture-dark.jpg",
+        "images/pictures/profile-picture-light.jpg"
+    ]
+}

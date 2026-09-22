@@ -1,0 +1,122 @@
+{
+    "title": {
+        "locales": {
+            "en": {
+                "title_short": "Awards",
+                "title_short_nav": "Achievements",
+                "title_long_prefix": "Here are my",
+                "title_long": "Career {{Achievements}}"
+            },
+            "es": {
+                "title_short": "Logros",
+                "title_short_nav": "Logros",
+                "title_long_prefix": "Aquí están mis",
+                "title_long": "{{Logros}} Profesionales"
+            },
+            "fr": {
+                "title_short": "Réalis",
+                "title_short_nav": "Réalisations",
+                "title_long_prefix": "Voici",
+                "title_long": "Mes {{Réalisations}}"
+            },
+            "ko": {
+                "title_short": "경력 성과",
+                "title_short_nav": "경력 성과",
+                "title_long_prefix": "다음은",
+                "title_long": "{{경력 성과}}입니다"
+            }
+        }
+    },
+
+    "articles": [
+        {
+            "id": 1,
+            "component": "ArticleCards",
+            "locales": {
+                "en": { "title": "Certifications" }
+            },
+            "settings": {
+                "order_items_by": "id",
+                "order_items_sort": "desc"
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "img": "",
+                    "faIcon": "fa-solid fa-certificate",
+                    "faIconColors": {"bg": "#326CE5", "fill": "#EEE"},
+                    "date": {"year": 2020, "month": 9},
+                    "link": {"href": "https://www.linkedin.com/in/faizer-umar ", "tooltipString": "see_certification"},
+                    "locales": {
+                        "en": {
+                            "title": "Certificate in {{web designing }} ",
+                            "text": "Zonal ICT Center"
+                        }
+                    }
+                },
+                
+                {
+                    "id": 2,
+                    "img": "",
+                    "faIcon": "fa-solid fa-certificate",
+                    "faIconColors": {"bg": "#326CE5", "fill": "#EEE"},
+                    "date": {"year": 2020, "month": 9},
+                    "link": {"href": "https://www.linkedin.com/in/faizer-umar ", "tooltipString": "see_certification"},
+                    "locales": {
+                        "en": {
+                            "title": " Certificate in {{Graphic Design & Animation }} ",
+                            "text": "Zonal ICT Center"
+                        }
+                    }
+                },
+                {
+                    "id": 3,
+                    "img": "images/pictures/aat.jpg",
+                    "faIcon": "fa-solid fa-certificate",
+                    "faIconColors": {"bg": "#326CE5", "fill": "#EEE"},
+                    "date": {"year": 2021, "month": 1},
+                    "link": {"href": "https://www.linkedin.com/in/faizer-umar ", "tooltipString": "see_certification"},
+                    "locales": {
+                        "en": {
+                            "title": " {{Assosiation of Accounting Technicians }}level 1",
+                            "text": "Assosiation of Accounting Technicians (AAT) <br> <b> Credentials ID: 3494141 </b>"
+                        }
+                    }
+                },
+
+                {
+                    "id": 4,
+                    "img": "images/pictures/images.jpg",
+                    "faIcon": "fa-brands fa-java",
+                    "faIconColors": {"bg": "#007396", "fill": "#EEE"},
+                    "date": {"year": 2023, "month": 11},
+                    "link": {"href": "https://www.linkedin.com/in/faizer-umar ", "tooltipString": "see_certification"},
+                    "locales": {
+                        "en": {
+                            "title": " {{Web Designing}} for Beginners ",
+                            "text": "University of Moratuwa<br> <b> Credentials ID: CCo4n3oTLv </b>"
+                        }
+                    }
+                },
+
+                {
+                    "id": 5,
+                    "img": "images/pictures/images.jpg",
+                    "faIcon": "fa-solid fa-database",
+                    "faIconColors": {"bg": "#47A248", "fill": "#EEE"},
+                    "date": {"year": 2023, "month": 11},
+                    "link": {"href": "https://www.linkedin.com/in/faizer-umar ", "tooltipString": "see_certification"},
+                    "locales": {
+                        "en": {
+                            "title": " {{Python}} for Beginners",
+                            "text": "University of Moratuwa<br> <b> Credentials ID: gGXCiG0kAf </b>"
+                        }
+                    }
+                }
+                
+            ]
+        }
+
+        
+    ]
+}

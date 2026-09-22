@@ -1,0 +1,103 @@
+{
+    "title": {
+        "locales": {
+            "en": {
+                "title_short": "Contact",
+                "title_short_nav": "Contact",
+                "title_long_prefix": "Don't hesitate to",
+                "title_long": "{{Contact}} Me"
+            }
+        }
+    },
+
+    "articles": [
+       
+
+        {
+            "id": 2,
+            "component": "ArticleInfoList",
+            "settings": {
+                "order_items_by": "id",
+                "order_items_sort": "asc"
+            },
+            "locales": {
+                "en": {"title": " choose what you {{prefer}}..."}
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "faIcon": "fa-solid fa-phone",
+                    "faIconColors": { "bg": "", "fill": "" },
+                    "label": "+94 78 571 0077",
+                    "link": {"href": "tel:94785710077", "tooltipString": "call_me"},
+                    "copyToClipboardButton": true,
+                    "locales": {
+                        "en": {"title": "Phone"},
+                        "es": {"title": "Teléfono"},
+                        "fr": {"title": "Téléphone"},
+                        "ko": {"title": "전화"}
+                    }
+                },
+                {
+                    "id":2,
+                    "faIcon": "fa-solid fa-envelope",
+                    "faIconColors": { "bg": "", "fill": "" },
+                    "label": "faizerumar@gmail.com",
+                    "link": {"href": "mailto:faizerumar@gmail.com", "tooltipString": "email_me"},
+                    "copyToClipboardButton": true,
+                    "locales": {
+                        "en": {"title": "E-mail"},
+                        "ko": {"title": "이메일"}
+                    }
+                },
+                {
+                    "id": 3,
+                    "faIcon": "fa-brands fa-linkedin",
+                    "faIconColors": { "bg": "", "fill": "" },
+                    "label": "@faizer-umar",
+                    "link": {"href": " https://www.linkedin.com/in/faizer-umar", "tooltipString": "open_website"},
+                    "copyToClipboardButton": true,
+                    "locales": {
+                        "en": {"title": "LinkedIn"},
+                        "ko": {"title": "링크드인"}
+                    }
+                },
+                {
+                    "id": 4,
+                    "faIcon": "fa-brands fa-facebook",
+                    "faIconColors": { "bg": "", "fill": "" },
+                    "label": "Umar Faizer",
+                    "link": {"href": "https://facebook.com/profiles/umarfaizer/default", "tooltipString": "open_website"},
+                    "copyToClipboardButton": true,
+                    "locales": {
+                        "en": {"title": "Facebook"},
+                        "ko": {"title": "페이스북"}
+                    }
+                },
+                {
+                    "id": 5,
+                    "faIcon": "fa-brands fa-instagram",
+                    "faIconColors": { "bg": "", "fill": "" },
+                    "label": "@umar_faizer",
+                    "link": {"href": "https://instagram.com/umar_faizer", "tooltipString": "open_website"},
+                    "copyToClipboardButton": true,
+                    "locales": {
+                        "en": {"title": "Instagram"},
+                        "ko": {"title": "인스타그램"}
+                    }
+                },
+                {
+                    "id": 6,
+                    "faIcon": "fa-brands fa-whatsapp",
+                    "faIconColors": { "bg": "", "fill": "" },
+                    "label": "+94 78 571 0077",
+                    "link": {"href": "https://wa.me/94785710077", "tooltipString": "open_website"},
+                    "copyToClipboardButton": true,
+                    "locales": {
+                        "en": { "title": "WhatsApp"}
+                    }
+                }
+            ]
+        }
+    ]
+}

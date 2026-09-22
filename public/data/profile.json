@@ -1,0 +1,28 @@
+{
+    "name": "Umar Faizer",
+
+    "profilePictureUrl": "images/pictures/umar.jpg",
+    "resumePdfUrl": "",
+
+    "statusCircleVisible": true,
+    "statusCircleVariant": "available",
+    "statusCircleHoverMessage": "status_message_available_for_freelance",
+
+    "locales": {
+        "en": {
+            "localized_name": "Umar Faizer",
+            "localized_name_stylized": " [[Umar {{Faizer}}]]",
+            "status_message_available_for_freelance": "Available for freelance!",
+            "roles": [
+                "Software Engineer",
+                "Software Developer",
+                "Fullstack Developer",                
+                "Frontend Developer",
+                "Backend Developer",
+                "UX Designer",
+                "Graphic Designer"
+            ]
+            
+        }
+    }
+}

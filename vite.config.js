@@ -3,7 +3,7 @@ import react from '@vitejs/plugin-react'
 
 // https://vitejs.dev/config/
 export default defineConfig({
-    base: '/1Portfolio Umar/',
+    base: '/1Portfolio-Umar/',
     plugins: [react()],
     build: {
         rollupOptions: {

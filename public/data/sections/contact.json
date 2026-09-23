@@ -11,7 +11,30 @@
     },
 
     "articles": [
-       
+        {
+            "id": 1,
+            "component": "ArticleInfoList",
+            "settings": {
+                "order_items_by": "id",
+                "order_items_sort": "asc"
+            },
+            "locales": {
+                "en": {"title": "Download Resume"}
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "faIcon": "fa-solid fa-file-arrow-down",
+                    "faIconColors": { "bg": "", "fill": "" },
+                    "label": "Download Resume",
+                    "link": {"href": "documents/UMAR_RESUME_SE.pdf", "tooltipString": "download_resume", "metadata": {"download": true}},
+                    "copyToClipboardButton": false,
+                    "locales": {
+                        "en": {"title": "Download Resume", "label": "Download Resume"}
+                    }
+                }
+            ]
+        },
 
         {
             "id": 2,

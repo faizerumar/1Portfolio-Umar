@@ -26,15 +26,15 @@
                     "img": "images/pictures/images2.jpg",
                     "faIcon": "",
                     "faIconColors": {"bg": "", "fill": ""},
-                    "dateStart": {"year": 2020, "month": 9},
-                    "dateEnd": {"year": 2022, "month": 6},
+                    "dateStart": {"year": 2009, "month": 1},
+                    "dateEnd": {"year": 2022, "month": 8},
                     "locales": {
                         "en": {
                             "title": "Advanced level & Ordinary level Examinations",
                             "province": "",
                             "country": "Sri Lanka",
                             "institution": "Dharmadutha college, Badulla",
-                            "text": "Passed Ordinary level Examinations in 2019 and Advanced level Examinations in 2022 by Commerce stream with the following subjects:",
+                            "text": "Passed <b>Ordinary level Examinations in 2019</b> and <b>Advanced level Examinations in 2022</b> by Commerce stream with the following subjects:",
                             "list": [
                                 "Accounts",
                                 "Business Studies",
@@ -57,14 +57,18 @@
                             "province": "Badulla",
                             "country": "Sri Lanka",
                             "institution": "Sri Lanka Institute of Advanced Technological Education (SLIATE)",
-                            "text": "Successfully completed the <b>HND in Information Technology</b> with a <b>GPA</b> of <b>3.81</b> ( upto 3rd semester & waiting for 4th sem results ) and built real-world applications, And now in the training peroid of 6 months ,particularly in:",
+                            "text": "Successfully completed the <b>HND in Information Technology</b> with a <b>GPA</b> of <b>3.81</b> ( upto 3rd semester & waiting for 4th sem results ), now in the training peroid of 6 months. from the academic years I gained real-world applications biulding & programming skills ,Mainly based in:",
                             "list": [
-                                "Computer Vision",
+                                "Software Development",
+                                "Web Development",
+                                "Mobile Development",
+                                "Database Management",
+                                "System Administration",                       
                                 "Innovative AI research",
                                 "Developing applications "
                             ],
                             "tags": [
-                                "Deep Learning", "Computer Vision", "AI Research", "Data Structures & Algorithms"
+                                "Deep Learning", "Computer Vision", "AI Research", "Data Structures & Algorithms", "Software Development", "Database Management", "System Administration"
                             ]
                         
                         }

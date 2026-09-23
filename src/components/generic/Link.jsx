@@ -80,14 +80,21 @@ function Link({ id = null, className = "", href, children, tooltip = null, metad
     const _openExternalLink = () => {
         const shortenedHref = utils.string.limitTextSize(href, 45)
         const formattedUrl = `<br><span class="text-secondary">« <b>${shortenedHref}</b> »</span><br><br>`
-        const text = language.getString("leaving_site").replace("{url}", formattedUrl) +
+        const text = metadata?.download ?
+            language.getString("confirm_to_continue") :
+            language.getString("leaving_site").replace("{url}", formattedUrl) +
             language.getString("confirm_to_continue")
 
         feedbacks.showConfirmationDialog(
-            language.getString("open_link"),
+            metadata?.download ? language.getString("download_resume") : language.getString("open_link"),
             text,
-            "fa-solid fa-link",
-            () => { window.open(href, "blank") },
+            metadata?.download ? "fa-solid fa-file-arrow-down" : "fa-solid fa-link",
+            () => {
+                if(metadata?.download)
+                    utils.file.download(href)
+                else
+                    window.open(href, "blank")
+            },
             language.getString("proceed"),
             null,
             language.getString("cancel"),

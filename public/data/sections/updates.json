@@ -173,7 +173,7 @@
                             "province": "Western Province",
                             "country": "SriLanka",
                             "institution": "",
-                            "text": " I am looking forward to pursuing a Topup Degree Program after completing my internship at HNDIT. This program will allow me to further enhance my skills and knowledge in the field of technology and prepare me for future career opportunities."
+                            "text": " I am looking forward to pursuing a <b>Topup Degree</b> Program after completing my internship at HNDIT. This program will allow me to further enhance my skills and knowledge in the field of technology and prepare me for future career opportunities."
                         }
                     }
                 },
@@ -195,13 +195,14 @@
                             "province": "Uva Province",
                             "country": "SriLanka",
                             "institution": "",
-                            "text": "I am currently working on several new software engineering projects that aim to provide innovative solutions to real-world problems. These projects are designed to leverage the latest technologies and best practices in software development.",
+                            "text": "I am currently working on several new <b>software engineering projects</b> that aim to provide innovative solutions to real-world problems. These projects are designed to leverage the latest technologies and best practices in software development.",
                             "list": [
-                                "CI/CD pipelines for automating the deployment of applications to cloud platforms.",
-                                "RAG (Retrieval-Augmented Generation) based applications for enhancing information retrieval and knowledge management.",
-                                "Developing a new web application that utilizes AI to enhance user experience.",
-                                "Creating a mobile app that helps users track their daily habits and improve productivity.",
-                                "Building an open-source library that simplifies data visualization for developers."
+                                "<b>CI/CD pipelines</b> for automating the deployment of applications to cloud platforms.",
+                                "<b>RAG (Retrieval-Augmented Generation) based application</b> for enhancing information retrieval and knowledge management.",
+                                "Developing an intuitive <b>POS application</b> that optimizes checkout workflows and provides real-time sales analytics for restaurateurs.",
+                                "Developing a new <b>web application</b> that utilizes AI to enhance user experience.",
+                                "Creating a <b>mobile app</b> that helps users track their daily habits and improve productivity.",
+                                "Building an <b>open-source library</b> that simplifies data visualization for developers."
                                 
                             ]
                         }

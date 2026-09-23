@@ -100,7 +100,7 @@
                     "locales": {
                         "en": {
                             "title": "CookBook",
-                            "text": "A cross-platform beautiful, <b>interactive Flutter</b> recipe application that allows you to discover, create, and save delicious recipes! With a user-friendly interface and seamless navigation, <b>CookBook</b> makes it easy to explore a wide variety of dishes, from appetizers to desserts. Whether you're a seasoned chef or a cooking enthusiast, this app provides step-by-step instructions, ingredient lists, and helpful tips to enhance your culinary experience.",
+                            "text": "A cross-platform beautiful, interactive <b>Flutter recipe application</b> that allows you to discover, create, and save delicious recipes! With a user-friendly interface and seamless navigation, <b>CookBook</b> makes it easy to explore a wide variety of dishes, from appetizers to desserts. Whether you're a seasoned chef or a cooking enthusiast, this app provides step-by-step instructions, ingredient lists, and helpful tips to enhance your culinary experience.",
                             "tags": ["Flutter", "Dart", "TheMealDB", "Android Studio"]
                         }
                     }
@@ -203,7 +203,7 @@
                     "locales": {
                         "en": {
                             "title": "SPECTSMAN Telegram Bot",
-                            "text": "A Telegram chatbot powered by the Groq API and the openai/gpt-oss-120b model.",
+                            "text": "A <b>Telegram chatbot</b> powered by the <b>Groq API</b> and the <b>openai/gpt-oss-120b model</b>.",
                             "tags": ["Telegram", "AI", "Chatbot", "Groq API", "OpenAI"]
                         }
                     }

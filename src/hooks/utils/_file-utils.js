@@ -13,7 +13,13 @@ export const _fileUtils = {
      * @param {String} url
      */
     download: (url) => {
-        window.open(_fileUtils.resolvePath(url), "_blank")
+        const link = document.createElement("a")
+        link.href = _fileUtils.resolvePath(url)
+        link.download = ""
+        link.rel = "noopener"
+        document.body.appendChild(link)
+        link.click()
+        link.remove()
     },
 
     /**

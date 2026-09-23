@@ -13,7 +13,7 @@ function Logo({ className = "", style = {}, size, setDidLoad }) {
     return (
         <div className={`logo-wrapper ${sizeClass} ${className}`}
              style={style}>
-            <img src={utils.file.resolvePath(`/images/svg/logo.svg`)}
+            <img src={utils.file.resolvePath(`/images/pictures/10.png`)}
                  onLoad={() => { setDidLoad && setDidLoad(true) }}
                  alt={`logo`}/>
         </div>
